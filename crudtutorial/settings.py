@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'j$t3i*)z#npdycc6e!+qd&)_u@6d-6lpn!qw*hq(9u)!f=ocpg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -59,7 +59,7 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
-    'http://localhost:8000',
+    'https://crud-simple-django.herokuapp.com/',
 )
 
 ROOT_URLCONF = 'crudtutorial.urls'
